@@ -104,7 +104,7 @@ const oldProducts = ["fashion", "mittens", "young-woman"],
 let index = 0;
 
 function showImage() {
-  let newSrc = `../../assets/${oldProducts[index]}.jpg`;
+  let newSrc = `./assets/${oldProducts[index]}.jpg`;
   imageTag.setAttribute("src", newSrc);
   index++;
 
