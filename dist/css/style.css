@@ -167,6 +167,8 @@ body {
     border-radius: 0 20px 0 20px; }
   body .old-fashion .fashion-details p {
     color: #c2c2c2c2; }
+  body .old-fashion .fashion-details span {
+    color: #fff; }
   body .old-fashion .fashion-details .best-grades {
     width: 70%; }
   body .best-sellers .content {
