@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../../node_modules/aos/dist/aos.css" />
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Shopping</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="w-100">
+        <div class="bg-video">
+          <video src="../../assets/clothing.mp4" muted loop autoplay></video>
+        </div>
+        <div class="container-fluid subscription position-absolute top-0">
+          <nav class="navbar container-fluid">
+            <div class="logo"> <h3 class="fw-bold text-primary text-sm ">FIFASH</h3> </div>
+            <div class="contact">
+              <div class="links">
+                <a href="#">Women</a>
+                <a href="#">Man</a>
+                <a href="#">Kids</a>
+              </div>
+              <div class="d-flex justify-content-center align-items-center ">
+                <i class="fa fa-cart-shopping mx-2"></i>
+                <button type="button" id="login" class="btn  px-4 py-1 fw-bold border rounded text-light" > LOGIN </button>
+              </div>
+            </div>
+            <i class="fa fa-list"></i>
+            <div class="responsive-nav">
+              <div class="links">
+                <a href="#">Women</a>
+                <a href="#">Man</a>
+                <a href="#">Kids</a>
+              </div>
+              <div class="d-flex justify-content-center align-items-center ">
+                <i class="fa fa-cart-shopping mx-2"></i>
+                <button type="button" id="login" class="btn  px-4 py-1 fw-bold border rounded text-light" > LOGIN </button>
+              </div>
+            </div>
+          </nav>
+          <div class="container shopping  ">
+            <div class="sub mt-3">
+              <h3 class="text-light" >Find The Best Fashion Style For You</h3>
+              <p class="mt-3 ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+                eveniet veniam, provident rerum dicta unde maxime officia
+                commodi sunt dolorum enim, expedita illum. Sapiente similique
+                asperiores eligendi ut quidem accusantium!
+              </p>
+              <button
+                type="button"
+                class="btn btn-light mt-5 px-4 py-1 fw-bold text-uppercase"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="collection my-5" data-aos="fade-up" data-aos-duration="1000">
+      <div class="container-fluid">
+        <h3 class=" my-2 text-center ">New Collection</h3>
+        <p class=" text-center  "> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="new-collection my-2">
+          <div class="row">
+            <div  class=" sub-coll mb-3 col-lg-4 col-sm-12 col-md-6">
+              <img src="../../assets/coll-1.jpg" alt="white-clothe" id="details-1" />
+              <div class="details"  >
+                <p class="text-primary text-sm text-decoration-underline fw-bold" data-selectimage="details-1" popovertarget="showpopover" >Show Details</p>
+                <div class="like"><i class="fa fa-heart"></i></div>
+              </div>
+              <div class="info" id="details-1" >
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio accusamus eveniet voluptatem magni sed distinctio nostrum suscipit non, laborum possimus, laboriosam, temporibus dolore qui! Repellendus, illo nam! Doloribus, inventore ea?</p>
+                <p class="text-light"> <span class="text-secondary fw-bold">Price:</span> 1000$ </p>
+                <div>
+                  <button type="button " class="btn  mt-2 text-capitalize" > Add to bag</button>
+                  <button type="button" class="btn  mt-2 text-capitalize"> buy now</button>
+                </div>
+              </div>
+            </div>
+            <div  class=" sub-coll mb-3 col-lg-4 col-sm-12 col-md-6">
+              <img src="../../assets/bestS-1.jpg" alt="white-clothe"   id="details-2" />
+              <div class="details">
+                <p class="text-primary text-sm text-decoration-underline fw-bold" data-selectimage="details-2" >Show Details</p>
+                <div class="like"><i class="fa fa-heart"></i></div>
+              </div>
+              <div class="info" id="details-2" >
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rem molestias porro ex similique? Velit commodi harum incidunt quos ipsum quia quidem facilis repellendus. Nemo ab delectus adipisci ut eum!</p>
+                <p class="text-light"> <span class="text-secondary fw-bold">Price:</span> 2000$ </p>
+                <div>
+                  <button type="button " class="btn  mt-2 text-capitalize" > Add to bag</button>
+                  <button type="button" class="btn  mt-2 text-capitalize"> buy now</button>
+                </div>
+              </div>
+            </div>
+            <div  class=" sub-coll mb-3 col-lg-4 col-sm-12 col-md-6">
+              <img src="../../assets/coll-2.jpg" alt="white-clothe" id="details-3" />
+              <div class="details">
+                <div class="like"><i class="fa fa-heart"></i></div>
+                <p class="text-primary text-sm text-decoration-underline fw-bold" data-selectimage="details-3" >Show Details</p>
+              </div>
+              <div class="info " id="details-3">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere distinctio corporis voluptas dolore est natus quos, fugit quaerat accusantium reiciendis. Fuga ullam deleniti sed repudiandae dignissimos aut praesentium quae in.</p>
+                <p class="text-light"> <span class="text-secondary fw-bold">Price:</span> 5000$ </p>
+                <div class="product-select">
+                  <button type="button " class="btn  mt-2 text-capitalize" > Add to bag</button>
+                  <button type="button" class="btn  mt-2 text-capitalize"> buy now</button>
+                </div>
+              </div>
+            </div>
+            <div  class=" sub-coll mb-3 col-lg-4 col-sm-12 col-md-6">
+              <img src="../../assets/coll-1.jpg" alt="white-clothe" id="details-4" />
+              <div class="details">
+                <p class="text-primary text-sm text-decoration-underline fw-bold" data-selectimage="details-4">Show Details</p>
+                <div class="like"><i class="fa fa-heart"></i></div>
+              </div>
+              <div class="info  " id="details-4">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ut repellat dolores, dolor perspiciatis aut atque in magni corporis molestias obcaecati architecto fugit dolorem tempora, tenetur sit! Est, assumenda ab?</p>
+                <p > <span class="text-secondary fw-bold">Price:</span> 7000$ </p>
+                <div>
+                  <button type="button " class="btn  mt-2 text-capitalize" > Add to bag</button>
+                  <button type="button" class="btn  mt-2 text-capitalize"> buy now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="old-fashion bg-dark " data-aos="fade-up"  data-aos-duration="1000">
+      <div class="container-fluid flex">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12 oldProduct col-md-6">
+            <img alt="not found!" />
+          </div>
+          <div class="fashion-details col-lg-6 col-md-6">
+            <h1 class="font-bold my-3 text-light">Best Fashion Since 2014</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusamus, libero voluptates soluta tempore debitis eius nulla aut
+              odio, impedit ut autem magni ipsam illum harum eos aspernatur,
+              veritatis sapiente quibusdam?
+            </p>
+            <div class="best-grades d-flex justify-content-between my-3 bg-body-tertiary shadow-md text-dark">
+              <div class="border border-top-0 border-end-danger border-bottom-0 border-start-0 p-3">
+                <span class="fw-bold">Year: </span>
+                <span>2014</span>
+              </div>
+              <div class="border border-top-0 border-end-danger border-bottom-0 border-start-0 p-3">
+                <span class="fw-bold">Cost: </span>
+                <span class="sallary">$900</span>
+              </div>
+              <div class="border border-top-0 border-end-danger border-bottom-0 border-start-0 p-3">
+                <span class="fw-bold">Sellers: </span>
+                <span>3545</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="best-sellers overflow-hidden bg-body-tertiary p-3 my-5" data-aos="fade-left" data-aos-duration="1000">
+      <div class="container ">
+        <div class=" content   ">
+          <div class="sell-details  ">
+            <h3 class="text-dark" >Best Seller Produts</h3>
+            <p class=" text-dark mt-3 ">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia
+              deserunt est aperiam provident iusto eius ea velit vero non, nam
+              officia delectus maiores in! Dicta aperiam dignissimos debitis
+              odio consequatur.
+            </p>
+            <button class=" my-3 btn border btn-sm border-dark text-dark fw-bold">SEE MORE</button>
+          </div>
+          <div class="wrapper ">
+            <div class="carousel  ">
+              <div class="card  ">
+                <img src="../../assets/coll-1.jpg" alt="" draggable="false">
+                <div class="card-body  text-light">
+                  <h5>Lorem Ipsum</h5>
+                  <p> <span class="fw-bold text-secondary">Size:</span> 40 </p>
+                </div>
+              </div>
+              <div class="card  ">
+                <img src="../../assets/coll-2.jpg" alt="" draggable="false">
+                <div class="card-body  text-light">
+                  <h5>Lorem Ipsum</h5>
+                  <p> <span class="fw-bold text-secondary">Size:</span> 40 </p>
+                </div>
+              </div>
+              <div class="card  ">
+                <img src="../../assets/coll-1.jpg" alt="" draggable="false">
+                <div class="card-body  text-light">
+                  <h5>Lorem Ipsum</h5>
+                  <p> <span class="fw-bold text-secondary">Size:</span> 40 </p>
+                </div>
+              </div>
+              <div class="card  ">
+                <img src="../../assets/coll-2.jpg" alt="" draggable="false">
+                <div class="card-body  text-light">
+                  <h5>Lorem Ipsum</h5>
+                  <p> <span class="fw-bold text-secondary">Size:</span> 40 </p>
+                </div>
+              </div>
+              <div class="card  ">
+                <img src="../../assets/coll-1.jpg" alt="" draggable="false">
+                <div class="card-body  text-light">
+                  <h5>Lorem Ipsum</h5>
+                  <p> <span class="fw-bold text-secondary">Size:</span> 40 </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+          
+      </div>
+    </div>
+
+    <div class="products container">
+      <div class="description d-flex flex-column justify-content-center align-items-center  ">
+        <h3 class="text-capitalize text-center my-3 " >our products</h3>
+      </div>
+      <div class="collectionProducts">
+        <div class="filter d-flex">
+          <div class=" active " data-mark="new" >New</div>
+          <div data-mark="trends" >Trends</div>
+          <div data-mark="sells"> Sells </div>
+        </div>
+        <div class="visible content my-3" id="new">
+          <div class=" row gy-3 my-3" >
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card ">
+                <img src="../../assets/coll-1.jpg" alt="!">
+                <div class="card-body  ">
+                  <div class="card-title fw-bold text-center text-light "> Lorem Ipsum </div>
+                <p> <span class="fw-bold text-secondary ">Size: </span> 40</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card">
+                <img src="../../assets/coll-1.jpg" alt="!">
+                <div class="card-body  ">
+                  <div class="card-title fw-bold text-center text-light "> Lorem Ipsum </div>
+                <p> <span class="fw-bold text-secondary ">Size: </span> 40</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card">
+                <img src="../../assets/coll-1.jpg" alt="!">
+                <div class="card-body  ">
+                  <div class="card-title fw-bold text-center text-light "> Lorem Ipsum </div>
+                <p> <span class="fw-bold text-secondary ">Size: </span> 40</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card">
+                <img src="../../assets/coll-1.jpg" alt="!">
+                <div class="card-body  ">
+                  <div class="card-title fw-bold text-center text-light "> Lorem Ipsum </div>
+                <p class="text-center"> <span class="fw-bold text-secondary ">Size: </span> 40</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content my-3 " id="trends">
+          <div class="  row gy-3" >
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card ">
+                <img src="../../assets/coll-2.jpg" alt="!">
+                <div class="card-body  ">
+                  <div class="card-title fw-bold text-center text-light "> Lorem Ipsum </div>
+                <p> <span class="fw-bold text-secondary ">Size: </span> 40</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card">
+                <img src="../../assets/coll-2.jpg" alt="!">
+                <div class="card-body  ">
+                  <div class="card-title fw-bold text-center text-light "> Lorem Ipsum </div>
+                <p> <span class="fw-bold text-secondary ">Size: </span> 40</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card">
+                <img src="../../assets/coll-2.jpg" alt="!">
+                <div class="card-body  ">
+                  <div class="card-title fw-bold text-center text-light "> Lorem Ipsum </div>
+                <p> <span class="fw-bold text-secondary ">Size: </span> 40</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card">
+                <img src="../../assets/coll-2.jpg" alt="!">
+                <div class="card-body ">
+                  <div class="card-title fw-bold text-center text-light "> Lorem Ipsum </div>
+                <p> <span class="fw-bold text-secondary ">Size: </span> 40</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content my-3 " id="sells" >
+          <div class="  row gy-3" >
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card">
+                <img src="../../assets/pro-1.jpg" alt="!">
+                <div class="card-body ">
+                  <div class="card-title fw-bold text-center text-light "> Lorem Ipsum </div>
+                <p class="text-center"> <span class="fw-bold text-secondary ">Size: </span> 40</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card">
+                <img src="../../assets/pro-1.jpg" alt="!">
+                <div class="card-body ">
+                  <div class="card-title fw-bold text-center text-light "> Lorem Ipsum </div>
+                <p> <span class="fw-bold text-secondary ">Size: </span> 40</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card">
+                <img src="../../assets/pro-1.jpg" alt="!">
+                <div class="card-body ">
+                  <div class="card-title fw-bold text-center text-light "> Lorem Ipsum </div>
+                <p> <span class="fw-bold text-secondary ">Size: </span> 40</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+              <div class="card">
+                <img src="../../assets/pro-1.jpg" alt="!">
+                <div class="card-body ">
+                  <div class="card-title fw-bold text-center text-light "> Lorem Ipsum </div>
+                <p class= "text-center"> <span class="fw-bold text-secondary ">Size: </span> 40</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="deadline-product my-5 ">
+      <div class="container">
+        <div class="row  ">
+          <div class="col-lg-6 my-3">
+            <div class="info-pro">
+              <img src="../../assets/deal.jpg" alt="!">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="timer">
+              <h3 class="  text-center text-capitalize my-3 ">deal of the day</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <div class="sale ">
+                <div class="deadline-counter my-3 ">
+                  <div>Days  <span ></span>  </div> 
+                  <div>Hours  <span ></span>  </div> 
+                  <div>Minutes  <span ></span>  </div> 
+                  <div>Secondes  <span ></span>  </div> 
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-us ">
+      <div class="container">
+        <h3 class="text-center text-capitalize ">what people say about us</h3>
+        <p class="text-center text-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+        <div class="wrapper my-3">
+          <i class="fa fa-angle-left" id="left"></i>
+          <div class="carousel " id="slider_dragger">
+            <div class="item-card  ">
+              <div class="img my-3"> <img src="../../assets/woman.jpg" alt=""> </div>
+              <h6>Dian William</h6>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="item-card  ">
+              <div class="img my-3"> <img src="../../assets/entrepreneur.jpg" alt=""> </div>
+              <h6>Jake David</h6>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="item-card  ">
+              <div class="img my-3"> <img src="../../assets/young.jpg" alt=""> </div>
+              <h6>Sara Watersen</h6>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="item-card  ">
+              <div class="img my-3"> <img src="../../assets/assistant.jpg" alt=""> </div>
+              <h6>Dian William</h6>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="item-card  ">
+              <div class="img my-3"> <img src="../../assets/young.jpg" alt=""> </div>
+              <h6>Sara Watersen</h6>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+            <div class="item-card  ">
+              <div class="img my-3"> <img src="../../assets/assistant.jpg" alt=""> </div>
+              <h6>Dian William</h6>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+          </div>
+          <i class="fa fa-angle-right" id="right"></i>
+        </div>
+      </div>
+    </div>
+   
+    <script src="../../node_modules/aos/dist/aos.js"></script>
+    <script src="../JS/jquery.min.js" ></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="../JS/script.js"  ></script>
+  </body>
+</html>

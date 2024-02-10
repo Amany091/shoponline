@@ -1,0 +1,16 @@
+{
+  "name": "Shoponline",
+  "version": "1.0.0",
+  "description": "A simple online shop application built with JS.",
+  "main": "home.html",
+  "homepage": "https://Amany091.github.io/shoponline",
+  "scripts": {
+    "sass": "node-sass -w scss/style.scss -o dist/css",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.2",
+    "gh-pages": "^6.1.1"
+  }
+}
